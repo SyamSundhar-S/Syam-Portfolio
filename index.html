@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Syam Sundhar S</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Syam Sundhar S</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Projects"onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>  
+            </div>
+        </div>
+    </nav>
+    <section id="profile_pic">
+        <div class="profile_pic-container main_pic">
+            <img src="/assets/imageedit_2_5724751031.png" alt="Syam Sundhar profile pic">
+        </div>
+        <div class="Profile_pic_text">
+            <p class="Profile_pic_p1">Hello, I'm</p>
+            <h1 class="Profile_pic_h1">Syam Sundhar S</h1>
+            <p class="Profile_pic_p2">Undergraduate</p>
+            <div class="Resume_button">
+                <button class="btn btn_resume" onclick="window.open('./assets/resume-Syam Sundhar S(1).pdf')">
+                    Download Resume
+                </button>
+                <button class="btn btn_contact" onclick="location.href='#contact'">
+                    Contact
+                </button>
+            </div>
+        <div id="social_media_profiles">
+        <img src="./assets/github.png"
+         alt="github profile" 
+         class="icon"
+         onclick="window.open('https://github.com/SyamSundhar-S/SyamSundhar-S.git')"/>
+        <img src="./assets/linkedin.png"
+         alt="linkin profile" 
+         class="icon"
+          onclick="window.open('https://linkedin.com/in/syam-sundhars')"/>
+        </div>
+    </div>
+    </section>
+    <section id="about">
+        <p class="Profile_pic_p1">Get to know more</p>
+        <h1 class="Profile_pic_h1">About Me</h1>
+        <div class="section_container">
+            <div class="profile_pic-container">
+                <img src="./assets/IMG_8667.jpg" 
+                class="profile_pic-container" 
+                alt="about picture" 
+                />
+            </div>
+            <div class="about_details_box">
+                <div class="about_box">
+                    <div class="details_box">
+                        <img src="./assets/experience.png"
+                        alt="experience picture"
+                        class="icon" />
+                        <h3>Experience</h3>
+                        <p>Student</p>
+                    </div>
+                    <div class="details_box">
+                        <img src="./assets/education.png"
+                        alt="education picture"
+                        class="icon" />
+                        <h3>Education</h3>
+                        <p>Currently pursing<br>B.Sc Physics</p>
+                    </div>
+                </div>
+                <div class="about_text">
+                    <p>
+                        Dedicated to expanding knowledge and abilities in astrophysics and quantum mechanics, this highly
+motivated physicist and mathematician also enjoys teaching and research. Committed to using my
+knowledge of teaching and research to make a real impact. I am a lifelong student and aspiring researcher
+dedicated to motivating others and positively influencing the scientific community
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="arrow_icon">
+            <img src="./assets/arrow.png"
+            alt="arrow picture"
+            class="arrow"
+            onclick="location.href='#Experience'"
+            />
+        </div>
+    </section>
+    <section id="Experience">
+        <p class="Profile_pic_p1">Explore My</p>
+        <h1 class="Profile_pic_h1">Experience</h1>
+        <div class="experience_about_box">
+            <div class="section_container">
+                <div class="about_box">
+                    <div class="details_box">
+                        <h2 class="exp_sub_title">Frontend Development</h2>
+                        <div class="article_box">
+                            <article>
+                                <img src="./assets/checkmark.png"
+                                alt="experience pic"
+                                class="icon"/>
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png"
+                                alt="experience pic"
+                                class="icon"/>
+                            
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div></article>
+                            <article>
+                                <img src="./assets/checkmark.png"
+                                alt="experience pic"
+                                class="icon"/>
+                            
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="about_box">
+                    <div class="details_box">
+                        <h2 class="exp_sub_title">Programming Language</h2>
+                        <div class="article_box">
+                            <article>
+                                <img src="./assets/checkmark.png"
+                                alt="experience pic"
+                                class="icon"/>
+                                <div>
+                                    <h3>Python</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png"
+                                alt="experience pic"
+                                class="icon"/>
+                            
+                                <div>
+                                    <h3>C++</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrow_icon">
+            <img src="./assets/arrow.png"
+            alt="arrow picture"
+            class="arrow"
+            onclick="location.href='#Projects'"
+            />
+        </div>
+
+    </section>
+    <section id="Projects">
+        <p class="Profile_pic_p1">Take A Look On</p>
+        <h1 class="Profile_pic_h1">My Projects</h1>
+        <div class="experience_about_box">
+            <div class="section_container">
+                <div class="project_temp">
+                    <div class="project_1">
+                        <img src="./assets/IMG-20230223-WA0001.jpg"
+                        alt="project 1"
+                        class="profile_pic-container" />
+                        <h3>Science Influncer</h3>
+                        <div class="Resume_button">
+                            <button class="btn btn_contact" onclick="window.open('./assets/Syam Sundhar.pdf')">
+                                Certificate
+                            </button>
+                            <button class="btn btn_contact" onclick="window.open('./assets/document_6077817355965040911.mp4')">
+                                Video
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project_2">
+                        <img src="./assets/Screenshot 2023-11-08 202120.jpg"
+                        alt="project 2"
+                        class="profile_pic-container" />
+                        <h3>My Portfolio</h3>
+                        <div class="Resume_button">
+                            <button class="btn btn_contact" onclick="window.open('https://github.com/SyamSundhar-S/SyamSundhar-S.git')">
+                                GitHub
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <div class="arrow_icon">
+            <img src="./assets/arrow.png"
+            alt="arrow picture"
+            class="arrow"
+            onclick="location.href='#contact'"
+            />
+        </div>
+        
+    </section>
+    <section id="contact">
+        <p class="Profile_pic_p1">Get In Touch</p>
+        <h1 class="Profile_pic_h1">My Contact</h1>
+        <div class="contact_upper_box">
+            <div class="contact_box">
+                <img src="./assets/email.png"
+                alt="email image"
+                class="icon icon-contact small-icon" />
+                <p><a href="mailto:syamsundharmvs@gmail.com">syamsundharmvs@gmail.com</a></p>
+            </div><br>
+            <div class="contact_box">
+                <img src="./assets/phone.png"
+                alt="phone image"
+                class="icon icon-contact small-icon" />
+                <p><a href="tel:7358276948">7358276948</a></p>
+            </div>
+            <div class="contact_box">
+                <img src="./assets/linkedin.png"
+                alt="linkedin image"
+                class="icon icon-contact" />
+                <p><a href="https://www.linkedin.com/in/syam-sundhars" target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-box">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p style="text-align: center;">Copyright &copy; Syam Sundhar S. All Rights Reversed.</p>
+    </footer>
+
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

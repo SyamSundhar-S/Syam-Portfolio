@@ -1,0 +1,99 @@
+@media screen and (max-width:1200px) {
+#hamburger-nav{
+    display: flex;   
+}
+#desktop-nav{
+    display: none;
+}
+#profile_pic,.section_container{
+    display: block;
+}
+.experience_about_box,#experience{
+    margin-top: 2rem;
+}
+.arrow{
+    display:none;
+}
+section,.section_container{
+    height: fit-content;
+}
+section{
+    margin: 0 5%;
+}
+.profile_pic-container{
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+}
+.about_box{
+    margin-top: 0;
+}
+
+}
+@media screen and (max-width:1400px) {
+#profile_pic{
+    height: 83vh;
+    margin-bottom: 6rem;
+}
+.about_box{
+    flex-wrap: wrap;
+}
+}
+@media screen and (max-width:600px) {
+#profile_pic{
+    height: 83vh;
+    margin-bottom: 0;
+}
+footer,#contact{
+    height: 55vh;
+}
+article{
+    font-size: 1rem;
+}
+footer nav{
+    height: fit-content;
+    margin-bottom: 2rem;
+}
+.Resume_button,.about_box,.contact_upper_box{
+    flex-wrap: wrap;
+}
+.contact_box{
+    margin: 0;
+}
+.contact_box p,
+.nav-links li a
+{
+    font-size: 1rem;
+}
+.logo{
+    font-size: 2rem;
+}
+.exp_sub_title{
+    font-size: 1.4rem;
+}
+.nav-links{
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+}
+.main_pic {
+    width: auto;
+    height: 43vw;
+    justify-content: center;
+}
+.about_text{
+    text-align: justify;
+}
+.Profile_pic_p2{
+    font-size: 1.25rem;
+}
+.Profile_pic_h1{
+    font-size: 2rem;
+}
+.project_1,.project_2{
+    justify-content: center;
+}
+.btn_contact:hover{
+    background: aqua;
+}
+}
