@@ -137,8 +137,8 @@ section{
 
 .profile_pic-container{
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 375px;
+    width: 300px;
     margin: auto 0;
     border-radius: 50px;
 }
